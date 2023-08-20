@@ -1,1 +1,84 @@
+body, h1, p, div{
+  margin: 0
+}
 
+:root{
+  --backgroundColorPrimary: rgb(15, 15, 15);
+  --backgroundColorSecondary: rgb(29, 27, 27);
+
+  --colorPrimary: rgb(230, 230, 240)
+}
+
+body{
+  background-color: var(--backgroundColorPrimary); 
+  color: var(--colorPrimary);
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#everythingPortfolio{
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 100px;
+  outline: solid yellow 5px
+}
+
+#skillsBlock{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  background-color: rgb(14, 13, 13);
+  width: 44vw;
+  outline: solid red 2px;
+}
+
+#headlinePortfolio{
+  font-size: 40px;
+  outline: solid blue 1px;
+}
+
+#textPortfolio{
+  font-size: 1.1rem;
+  line-height: 27px;
+  outline: solid green 1px;
+}
+
+#techStack{
+  outline: solid blueviolet 1px;
+}
+
+.skillButton{
+  width: 100px;
+  height: 30px;
+  background-color: var(--backgroundColorPrimary);
+  color: white;
+  border-radius: 3px; 
+  margin: 0 7px 15px 1px 
+}
+
+#navigation{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 15vw;
+  height: 47vh;
+  background-color: var(--backgroundColorSecondary);
+  outline: solid cyan 2px;
+}
+
+.navigationElement{
+  height: 70px;
+  color: white;
+  background-color: var(--backgroundColorPrimary);
+  font-size: .9rem  
+}
+
+.navigationElement:hover{
+  opacity: .7;
+}
+
+#currentPage{
+  opacity: .6;
+}
