@@ -1,0 +1,60 @@
+body, h1, p, div{
+    margin: 0
+  }
+  
+:root{
+--backgroundColorPrimary: rgb(15, 15, 15);
+--backgroundColorSecondary: rgb(29, 27, 27);
+
+--colorPrimary: rgb(230, 230, 240)
+}
+
+body{
+    background-color: var(--backgroundColorPrimary); 
+    color: var(--colorPrimary);
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+}
+  
+.container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.siteSection{
+    /* width: 100vw; */
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    outline: solid yellow 5px
+}
+
+#navigation{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    width: 15vw;
+    height: 47vh;
+    background-color: var(--backgroundColorSecondary);
+    position: fixed;
+    outline: solid cyan 2px;
+}
+  
+.navigationElement{
+    height: 70px;
+    color: white;
+    background-color: var(--backgroundColorPrimary);
+    font-size: .9rem  
+}
+  
+.navigationElement:hover{
+    opacity: .7;
+}
+
+#currentPage{
+    opacity: .6;
+}
+  
