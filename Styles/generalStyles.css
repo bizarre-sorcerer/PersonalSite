@@ -33,7 +33,7 @@ body{
 }
 
 #navigation{
-    display: flex;
+    display: none;
     flex-direction: column;
     gap: 1px;
     width: 15vw;
