@@ -1,15 +1,18 @@
-/* Убераю значения браузеров по дефолту */
-body, div, img, h1, h3, p{
-    margin: 0;
-    padding: 0;
-    color: var(--regular-text-color)
-}
-
 /* Нужные переменные, цвета */
 :root{
     --background-color-primary: rgba(22, 31, 38, 0.70);
     --background-color-secondary: rgba(5, 20, 34, 1);
     --regular-text-color: white; 
+    --my-font: 'Montserrat', sans-serif
+}
+
+/* Убераю значения браузеров по дефолту */
+body, div, img{
+    margin: 0;
+    padding: 0;
+    color: var(--regular-text-color);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .wrapper{
@@ -19,5 +22,7 @@ body, div, img, h1, h3, p{
     background-color: var(--background-color-secondary);
     background-image: linear-gradient(270deg, rgba(0, 0, 0, 0.70) 20.58%, rgba(0, 0, 0, 0.11) 98.21%),
         linear-gradient(90deg, rgba(37, 37, 37, 0.00) 50%, rgba(0, 0, 0, 0.00) 100%);
+    font-family: var(--my-font);
 
 }
+

@@ -12,7 +12,7 @@
 }
 
 #header-text-portfolio{
-    font-family: Coolvetica;
+    font-family: var(--my-font);
     font-size: 32.66px;
     font-style: normal;
     font-weight: 400;
@@ -24,7 +24,6 @@
 .menu{ 
     display: flex;
     gap: 50px;
-    font-family: Coolvetica;
     font-size: 20px;
     font-weight: 50;
     letter-spacing: 2px;
@@ -37,6 +36,42 @@
 /* Теперь контент главной страницы */
 .main-content{
     display: flex;
+    align-items: center;
     width: 100vw;
-    height: calc(100vh - 67px);
+    height: 100vh;
+}
+
+.photo{
+    width: 750px;
+}
+
+.text-container{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 50;
+    line-height: 26px; 
+    letter-spacing: 0.34px;
+    margin-bottom: 70px;
+}
+
+.text-container h1{
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 69.299px;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+
+.text-container p{
+    width: 400px;
+    margin-bottom: 30px;
+}
+
+#first-p{
+    margin-left: 400px;
+}
+
+#third-p{
+    margin-left: 400px;
 }
