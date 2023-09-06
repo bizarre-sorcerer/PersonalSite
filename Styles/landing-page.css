@@ -15,9 +15,9 @@
     font-family: var(--my-font);
     font-size: 32.66px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 800;
     line-height: normal;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-transform: uppercase;
 }
 
@@ -25,12 +25,12 @@
     display: flex;
     gap: 50px;
     font-size: 20px;
-    font-weight: 50;
+    font-weight: 400;
     letter-spacing: 2px;
 }
 
 .menu-element:hover{
-    opacity: .7
+    opacity: .5
 }
 
 /* Теперь контент главной страницы */
@@ -51,7 +51,8 @@
     font-weight: 50;
     line-height: 26px; 
     letter-spacing: 0.34px;
-    margin-bottom: 70px;
+    margin-top: 100px;
+    margin-left: 50px;
 }
 
 .text-container h1{
