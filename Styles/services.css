@@ -1,0 +1,54 @@
+#services-page{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 200px;
+}
+
+#services-header{
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; /* 100% */
+    letter-spacing: -1px;
+    margin-bottom: 50px
+}
+
+.services-container{
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+}
+
+.service-image{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+}
+
+.service-button{
+    width: 140px;
+    height: 40px;
+    margin-left: 25px;
+    background-color: rgba(8, 40, 68, 1);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; 
+    letter-spacing: -0.32px; 
+    border: white solid 1px;
+}
+
+.service-element{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px
+}
+
+.service-element p{
+    text-align: center;
+    height: 50px;
+
+}
