@@ -6,6 +6,7 @@
     --my-font: 'Montserrat', sans-serif
 }
 
+
 /* Убераю значения браузеров по дефолту */
 body, div, img, h1, h3, button{
     margin: 0;
@@ -15,6 +16,7 @@ body, div, img, h1, h3, button{
     font-family: 'Ubuntu', sans-serif;
 }
 
+/* Бэкграунд сайта везде */
 .wrapper{
     width: 100vw;
     height: 100vh;
@@ -26,3 +28,77 @@ body, div, img, h1, h3, button{
     overflow: hidden;
 }
 
+/* нормальные ссылки */
+a{
+    text-decoration: none;
+    color: var(--regular-text-color)
+}
+
+
+/* В этой секции все про header */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 67px;
+    background-color: var(--background-color-secondary);
+    color: var(--regular-text-color);
+    user-select: none;
+    position: fixed;
+}
+
+#header-text-portfolio{
+    font-family: var(--my-font);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+#header-text-portfolio:hover{
+    font-size: 28px;
+    opacity: .8;
+}
+
+.menu{ 
+    display: flex;
+    gap: 50px;
+}
+
+.menu-element{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    transition: .5s;
+}
+
+.menu-element:hover{
+    font-size: 18px;
+    opacity: .8;
+}
+
+/* Мини футер */
+.mini-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 40px;
+    height: 140px;
+    position: fixed;
+    left: 96vw;
+    top: 150px
+}
+
+.mini-footer *{
+    /* width: 50px; */
+    height: 30px;
+    width: 30px;
+}
+
+img, svg{
+    user-select: none;
+}

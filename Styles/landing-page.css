@@ -1,39 +1,4 @@
-/* В этой секции все про header */
-.header{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100vw;
-    height: 67px;
-    background-color: var(--background-color-secondary);
-    color: var(--regular-text-color);
-    user-select: none;
-    position: fixed;
-}
-
-#header-text-portfolio{
-    font-family: var(--my-font);
-    font-size: 32.66px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
-
-.menu{ 
-    display: flex;
-    gap: 50px;
-    font-size: 20px;
-    font-weight: 400;
-    letter-spacing: 2px;
-}
-
-.menu-element:hover{
-    opacity: .5
-}
-
-/* Теперь контент главной страницы */
+/* Контент главной страницы */
 .main-content{
     display: flex;
     align-items: center;
