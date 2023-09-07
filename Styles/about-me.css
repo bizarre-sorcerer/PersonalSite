@@ -3,11 +3,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 78vh;
 }
 
-.container{
+.about-container{
     width: 70vw;
-    height: 750px;
+    height: 2500px;
     margin-top: 170px;
 }
 
@@ -45,7 +46,7 @@
 }
 
 .buttons{
-    margin: 10px 50px;
+    margin: 10px 0px;
 
 }
 
