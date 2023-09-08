@@ -18,7 +18,7 @@ body, div, img, h1, h3, button{
 
 /* Бэкграунд сайта везде */
 .wrapper{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-color: var(--background-color-secondary);
     background-color: var(--background-color-secondary);
@@ -56,7 +56,7 @@ a{
     line-height: normal;
     letter-spacing: 1px;
     text-transform: uppercase;
-    transition: .5s;
+    transition: .4s;
 }
 
 #header-text-portfolio:hover{
@@ -73,7 +73,7 @@ a{
     font-size: 20px;
     font-weight: 400;
     letter-spacing: 2px;
-    transition: .5s;
+    transition: .4s;
 }
 
 .menu-element:hover{
