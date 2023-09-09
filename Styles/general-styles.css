@@ -26,6 +26,7 @@ body, div, img, h1, h3, button{
         linear-gradient(90deg, rgba(104, 104, 104, 0) 50%, rgba(22, 22, 22, 0) 100%);
     font-family: var(--my-font);
     overflow: hidden;
+    padding-bottom: 150px;
 }
 
 /* нормальные ссылки */

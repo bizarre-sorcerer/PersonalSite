@@ -1,0 +1,38 @@
+#projects-page{
+    display: flex;
+    justify-content: center;
+}
+
+.projects-content{
+    width: 70vw;
+}
+
+.projects-header{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 65px; /* 100% */
+    letter-spacing: -1px;
+}
+
+.projects-text-container{
+    width: 500px;
+    margin-bottom: 20px;
+
+}
+
+.projects-text{
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.34px;
+}
+
+.filter-button{
+    width: 120px;
+    height: 40px;
+    background-color: rgba(8, 40, 68, 1);
+    border: solid white 1px;
+    margin-right: 50px
+}
