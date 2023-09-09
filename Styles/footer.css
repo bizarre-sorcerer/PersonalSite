@@ -51,8 +51,14 @@
     gap: 15px;
 }
 
-.footer-navigation *{
+.footer-nav-link{
     font-size: 18px;
+    transition: .5s
+}
+
+.footer-nav-link:hover{
+    font-size: 17px;
+    opacity: .8;
 }
 
 .footer-service-element{
@@ -65,7 +71,12 @@
 }
 
 .service-link{
-    color: rgba(20, 200, 255, 1)
+    color: rgba(20, 200, 255, 1);
+    transition: .2s
+}
+
+.service-link:hover{
+    opacity: .7
 }
 
 .contacts-container{

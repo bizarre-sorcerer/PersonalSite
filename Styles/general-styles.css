@@ -61,7 +61,7 @@ a{
 }
 
 #header-text-portfolio:hover{
-    font-size: 28px;
+    font-size: 31px;
     opacity: .8;
 }
 
@@ -78,7 +78,7 @@ a{
 }
 
 .menu-element:hover{
-    font-size: 18px;
+    font-size: 19px;
     opacity: .8;
 }
 
@@ -94,12 +94,15 @@ a{
     top: 150px
 }
 
-.mini-footer *{
-    /* width: 50px; */
+.mini-footer-element{
     height: 30px;
     width: 30px;
+    user-select: none;
+    transition: .2
 }
 
-img, svg{
-    user-select: none;
+.mini-footer-element:hover{
+    opacity: .8;
+    width: 29px;
+    height: 29px;
 }
