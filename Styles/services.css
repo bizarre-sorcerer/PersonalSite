@@ -21,16 +21,34 @@
     gap: 80px;
 }
 
-.service-element{ 
-    aspect-ratio: 5/7;
-    width: 220px;
-    background-color: rgb(33, 53, 51);
+.service-card{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    aspect-ratio: 5/7.5;
+    width: 240px;
+    background-color: rgb(23, 128, 115);
+}
+
+.service-heading{
+    width: 80%;
+    text-align: center;
+}
+
+.service-card p{
+    width: 80%;
+    text-align: center;
+}
+
+.service-image-container{
+    width: 100%;
+    height: 50%;
+    background-color: white;
 }
 
 .service-image{
     width: 100%;
-    height: 40%;
-    background-color: white;
+    height: 100%;
 }
 
 .service-element p{
