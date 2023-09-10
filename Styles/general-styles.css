@@ -1,7 +1,7 @@
 /* Нужные переменные, цвета */
 :root{
     --background-color-primary: rgba(22, 31, 38, 0.70);
-    --background-color-secondary: rgba(5, 20, 34, 1);
+    --background-color-secondary: rgba(8, 30, 51, 1);
     --regular-text-color: white; 
     --my-font: 'Montserrat', sans-serif
 }
@@ -21,9 +21,8 @@ body, div, img, h1, h3, button{
     width: 100%;
     height: 100vh;
     background-color: var(--background-color-secondary);
-    background-color: var(--background-color-secondary);
-    background-image: linear-gradient(270deg, rgba(5, 5, 5, 0.7) 20.58%, rgba(5, 5, 5, 0.11) 98.21%),
-        linear-gradient(90deg, rgba(104, 104, 104, 0) 50%, rgba(22, 22, 22, 0) 100%);
+    background-image: linear-gradient(270deg, rgba(15, 15, 15, 0.7) 20.58%, rgba(15, 15, 15, 0.11) 98.21%),
+        linear-gradient(90deg, rgba(141, 141, 141, 0) 50%, rgba(40, 40, 40, 0) 100%);
     font-family: var(--my-font);
     overflow: hidden;
     padding-bottom: 150px;
