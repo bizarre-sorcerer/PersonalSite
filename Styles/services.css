@@ -1,8 +1,9 @@
 #services-page{
-    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    height: auto;
+    padding-bottom: 150px;
 }
 
 #services-header{
@@ -10,54 +11,55 @@
     font-size: 48px;
     font-style: normal;
     font-weight: 400;
-    line-height: 48px; /* 100% */
-    letter-spacing: -1px;
+    line-height: 60px;
+    letter-spacing: -2px;
     margin-bottom: 50px
 }
 
 .services-container{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    gap: 80px;
+    gap: 50px;
+}
+
+.row{
+    display: flex;
+    gap: 50px
 }
 
 .service-card{ 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    aspect-ratio: 5/7.5;
-    width: 240px;
-    background-color: rgb(23, 128, 115);
+    width: 270px;
+    aspect-ratio: 1/1;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#first-card{
+    background-image: url("../Design/Imgs/front-end.jpg");
+}
+
+#second-card{
+    background-image: url("../Design/Imgs/front-end.jpg");
+}
+
+#third-card{
+    background-image: url("../Design/Imgs/front-end.jpg");
+}
+
+#fourth-card{
+    background-image: url("../Design/Imgs/front-end.jpg");
 }
 
 .service-heading{
-    width: 80%;
+    font-size: 25px;
+    padding: 15px 0px;
+    height: 30px;
     text-align: center;
+    letter-spacing: -1px;
 }
 
 .service-card p{
     width: 80%;
     text-align: center;
 }
-
-.service-image-container{
-    width: 100%;
-    height: 50%;
-    background-color: white;
-}
-
-.service-image{
-    width: 100%;
-    height: 100%;
-}
-
-.service-element p{
-    text-align: center;
-}
-
-.service-heading{
-    text-align: center;
-    padding: 15px 0px;
-    height: 30px;
-}
-
