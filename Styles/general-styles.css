@@ -34,7 +34,6 @@ a{
     color: var(--regular-text-color)
 }
 
-
 /* В этой секции все про header */
 .header{
     display: flex;
@@ -114,4 +113,11 @@ a{
     opacity: .8;
     width: 29px;
     height: 29px;
+}
+
+/* Белая линия которая разделяет секции */
+.block-of-color{
+    width: 100%;
+    height: 1px;
+    background-color: white;
 }
