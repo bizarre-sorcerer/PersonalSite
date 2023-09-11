@@ -24,8 +24,17 @@
 .service-card{ 
     width: auto;
     aspect-ratio: 1/1;
-    background-repeat: no-repeat;
-    background-size: cover
+    position: relative;
+    z-index: 1;        
+}
+
+.service-card:before{
+    z-index:-1;
+    position:absolute;
+    left:0;
+    top:0;
+    content: url('../Design/Imgs/front-end.jpg');
+    opacity: .1;
 }
 
 .service-heading{
@@ -38,6 +47,22 @@
 
 .service-card:hover .card-img img{
     opacity: .1;
+    }
+
+.card-text{
+    color: #fff;
+    opacity: .0;
+    font-size: var(--body-text-size);
+    text-align: center;
+    position: absolute;
+    bottom: 70%;
+    z-index: 2;
+    transform: translate3d(0,-50,0);
+    transition: opacity .1s linear;
+}
+
+.service-card:hover .card-text{
+    opacity: 1;
 }
 
 .service-card p{

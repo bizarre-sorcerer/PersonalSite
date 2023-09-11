@@ -3,7 +3,7 @@
     --background-color-primary: rgb(0, 0, 0);
     --regular-text-color: rgb(255, 255, 240); 
     --my-font: 'Ubuntu', sans-serif;
-    --body-text-size: 18px;
+    --body-text-size: 16px;
 }
 
 
@@ -67,7 +67,7 @@ a{
 }
 
 .menu-element{
-    font-size: var(--body-text-size);
+    font-size: 18px;
     font-weight: 400;
     letter-spacing: 2px;
     transition: .4s;
