@@ -12,7 +12,7 @@
 }
 
 .text-container{
-    font-size: 18px;
+    font-size: var(--body-text-size);
     font-style: normal;
     font-weight: 50;
     line-height: 26px; 
@@ -33,6 +33,7 @@
 .text-container p{
     width: 400px;
     margin-bottom: 30px;
+    opacity: .85;
 }
 
 #first-p{

@@ -8,7 +8,7 @@
 
 #services-header{
     text-align: center;
-    font-size: 48px;
+    font-size: 42px;
     font-style: normal;
     font-weight: 400;
     line-height: 60px;
@@ -22,37 +22,27 @@
 }
 
 .service-card{ 
-    width: 270px;
+    width: auto;
     aspect-ratio: 1/1;
     background-repeat: no-repeat;
     background-size: cover
 }
 
-#first-card{
-    background-image: url("../Design/Imgs/front-end.jpg");
-}
-
-#second-card{
-    background-image: url("../Design/Imgs/front-end.jpg");
-}
-
-#third-card{
-    background-image: url("../Design/Imgs/front-end.jpg");
-}
-
-#fourth-card{
-    background-image: url("../Design/Imgs/front-end.jpg");
-}
-
 .service-heading{
-    font-size: 25px;
+    font-size: 22px;
     padding: 15px 0px;
     height: 30px;
     text-align: center;
     letter-spacing: -1px;
 }
 
+.service-card:hover .card-img img{
+    opacity: .1;
+}
+
 .service-card p{
     width: 80%;
     text-align: center;
 }
+
+
