@@ -7,33 +7,35 @@
     overflow: hidden;
 }
 
+/* фото */
 .photo{
     width: 750px;
 }
 
+/* Контейтер где находяться весь тексты */
 .text-container{
     font-size: var(--body-text-size);
     font-style: normal;
     font-weight: 50;
-    line-height: 26px; 
-    letter-spacing: 0.34px;
-    margin-top: 100px;
+    line-height: 20px; 
+    letter-spacing: 1px;
+    margin-bottom: 100px;
     margin-left: 50px;
 }
 
+/* Заголовок Welcome */
 .text-container h1{
     font-size: 75px;
     font-style: normal;
     font-weight: 500;
-    line-height: 69.299px;
-    letter-spacing: 1px;
-    margin-bottom: 50px;
+    line-height: 90px;
+    letter-spacing: -1px;
+    opacity: .95;    
 }
 
 .text-container p{
     width: 400px;
-    margin-bottom: 30px;
-    opacity: .85;
+    opacity: .8;
 }
 
 #first-p{

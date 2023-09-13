@@ -28,15 +28,6 @@
     z-index: 1;        
 }
 
-.service-card:before{
-    z-index:-1;
-    position:absolute;
-    left:0;
-    top:0;
-    content: url('../Design/Imgs/front-end.jpg');
-    opacity: .1;
-}
-
 .service-heading{
     font-size: 22px;
     padding: 15px 0px;

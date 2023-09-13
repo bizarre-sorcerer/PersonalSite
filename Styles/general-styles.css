@@ -2,8 +2,8 @@
 :root{
     --background-color-primary: rgb(0, 0, 0);
     --regular-text-color: rgb(255, 255, 240); 
-    --my-font: 'Ubuntu', sans-serif;
-    --body-text-size: 16px;
+    --my-font: 'Source Serif Pro';
+    --body-text-size: 18px;
 }
 
 
@@ -12,8 +12,7 @@ body, div, img, h1, h3, button{
     margin: 0;
     padding: 0;
     color: var(--regular-text-color);
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Source Serif Pro';
 }
 
 /* Бэкграунд сайта везде */
@@ -38,11 +37,20 @@ a{
     align-items: center;
     justify-content: space-around;
     width: 100vw;
-    height: 67px;
+    height: 52px;
     background-color: var(--background-color-primary);
     color: var(--regular-text-color);
     user-select: none;
     position: fixed;
+}
+
+.My-name{
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.2px;
+    text-transform: capitalize;
 }
 
 #header-text-portfolio{
@@ -63,20 +71,32 @@ a{
 
 .menu{ 
     display: flex;
-    gap: 50px;
+    align-items: center;
+    gap: 30px;
 }
 
 .menu-element{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     letter-spacing: 2px;
     transition: .4s;
+}
+
+#contact-me-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid White 1px;
+    width: 130px;
+    height: 38px;
 }
 
 .menu-element:hover{
     font-size: 17px;
     opacity: .8;
 }
+
+
 
 /* Мини футер */
 .mini-footer{
