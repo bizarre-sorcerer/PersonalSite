@@ -38,7 +38,8 @@ a{
     justify-content: space-around;
     width: 100vw;
     height: 58px;
-    background-color: var(--background-color-primary);
+    background-color: black;
+    z-index: 1000;
     color: var(--regular-text-color);
     user-select: none;
     position: fixed;
@@ -103,7 +104,7 @@ a{
     font-weight: 600;
     cursor: pointer;
     transition: .4s;
-    background-image: linear-gradient(to right, #328b70, #328b4d, #24743c, #145f3b);
+    background-image: linear-gradient(to right, rgb(39, 115, 62), rgb(15, 81, 35), rgb(15, 81, 35), rgb(4, 42, 15));
     /* box-shadow: 0 1px 15px 0 rgba(54, 172, 168, 0.5); */
     border-radius: 33px;
     background-size: 300% 100%;
@@ -133,8 +134,8 @@ a{
 }
 
 #whatsapp-icon:hover{
-    height: 29px;
-    width: 29px;
+    height: 27px;
+    width: 27px;
 }
 
 .mini-footer-element{
@@ -146,8 +147,8 @@ a{
 
 .mini-footer-element:hover{
     opacity: .8;
-    width: 26px;
-    height: 26px;
+    width: 28px;
+    height: 28px;
 }
 
 /* Белая линия которая разделяет секции */

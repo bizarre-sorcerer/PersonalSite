@@ -3,75 +3,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 78vh;
+    height: 70vh;
 }
 
 .about-container{
-    width: 70vw;
+    width: 80vw;
     height: 2500px;
     margin-top: 170px;
 }
 
-#about-me-h1{
-    width: 300px;
-    padding-bottom: 30px;
-    text-transform:uppercase;
-    font-weight: 1000;
-    font-size: 42px;
+.about-text-container{
+    width: 50%;
 }
 
-.text-about{
-    width: 660px;
-    padding-bottom: 30px;
-}
-
-#what-i-do-text{
-    float: right;
-}
-
-.text-about h3{
-    font-size: 23px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 30px;
-    opacity: .9; 
-}
-
-.text-about p{
-    padding: 0 15 0 15;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0.34px;
-    opacity: .85;
-}
-
-.buttons{
-    margin: 10px 0px;
-
-}
-
-.buttons *{
-    width: 140px;
-    height: 40px;
-    margin-left: 25px;
-    background-color: rgba(8, 40, 68, 1);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 22px; 
-    letter-spacing: -0.32px;    
-}
-
-#contact-me{
-    border: solid .5px rgb(159, 196, 211);
-}
-
-#learn-more-btn{
-    background: transparent;
-    border: dashed 1px rgb(160, 160, 160)
-}
-
-button:hover{
-    opacity: .6;
-}
