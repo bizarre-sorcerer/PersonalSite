@@ -37,20 +37,25 @@ a{
     align-items: center;
     justify-content: space-around;
     width: 100vw;
-    height: 52px;
+    height: 58px;
     background-color: var(--background-color-primary);
     color: var(--regular-text-color);
     user-select: none;
     position: fixed;
 }
 
-.My-name{
+#My-name{
     font-size: 22px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     letter-spacing: -0.2px;
     text-transform: capitalize;
+}
+
+#My-name:hover{
+    font-size: 20px;
+    opacity: .8;
 }
 
 #header-text-portfolio{
@@ -78,8 +83,13 @@ a{
 .menu-element{
     font-size: 20px;
     font-weight: 400;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     transition: .4s;
+}
+
+.menu-element:hover{
+    font-size: 19px;
+    opacity: .8;
 }
 
 #contact-me-button{
@@ -89,14 +99,21 @@ a{
     border: solid White 1px;
     width: 130px;
     height: 38px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .4s;
+    background-image: linear-gradient(to right, #328b70, #328b4d, #24743c, #145f3b);
+    /* box-shadow: 0 1px 15px 0 rgba(54, 172, 168, 0.5); */
+    border-radius: 33px;
+    background-size: 300% 100%;
+    
 }
 
-.menu-element:hover{
-    font-size: 17px;
-    opacity: .8;
+#contact-me-button:hover{ 
+    background-position: 100% 0;  
+    transition: all .4s ease-in-out;
 }
-
-
 
 /* Мини футер */
 .mini-footer{

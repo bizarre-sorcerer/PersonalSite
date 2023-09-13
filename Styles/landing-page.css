@@ -2,18 +2,14 @@
 .main-content{
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
 }
 
-/* фото */
-.photo{
-    width: 750px;
-}
-
 /* Контейтер где находяться весь тексты */
-.text-container{
+.main-text-container{
     font-size: var(--body-text-size);
     font-style: normal;
     font-weight: 50;
@@ -24,7 +20,7 @@
 }
 
 /* Заголовок Welcome */
-.text-container h1{
+.main-text-container h1{
     font-size: 75px;
     font-style: normal;
     font-weight: 500;
@@ -33,7 +29,7 @@
     opacity: .95;    
 }
 
-.text-container p{
+.main-text-container p{
     width: 400px;
     opacity: .8;
 }
@@ -44,4 +40,20 @@
 
 #third-p{
     margin-left: 400px;
+}
+
+.bottom-text{
+    width: 321px;
+    padding: 3px;
+    border-left: dashed white 1px;
+    border-bottom: dashed white 1px;
+    position: relative;
+    left: 150px;
+    bottom: 80px
+}
+
+.bottom-text span{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: 'Source Serif Pro';
 }
