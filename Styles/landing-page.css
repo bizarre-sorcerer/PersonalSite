@@ -6,7 +6,7 @@
     justify-content: center;
 }
 
-.main-content{
+.main-content-container{
     display: flex;
     align-items: center;
     justify-content: space-around;
