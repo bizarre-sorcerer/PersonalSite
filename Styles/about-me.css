@@ -7,12 +7,86 @@
 }
 
 .about-container{
-    width: 80vw;
-    height: 2500px;
-    margin-top: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50vw;
+    height: 480px;
+}
+
+#about-me-h1{
+    font-size: 38px
 }
 
 .about-text-container{
-    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    width: 30vw;
+    height: 100%;
+}
+
+.text-about h3{
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 0 0 8px 0;
+}
+
+.text-about p{
+    color: rgba(255, 255, 255, .78);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.32px;
+    margin: 0;
+}
+
+.skill-element{
+    display: inline-block;
+    font-weight: 300;
+    line-height: normal;
+    color: rgba(255, 255, 255, .85);
+    border: solid rgba(255, 255, 255, 0.70) 1px;
+    margin-right: 8px;
+    padding: 2px 6px;
+}
+
+.button-container{
+    height: 60px;
+    position: relative;
+}
+
+.about-btn{
+    background-color: rgba(10, 72, 23, .8);
+    color: rgba(255, 255, 255, 0.8);
+    width: 120px;
+    height: 32px;
+    position: absolute;
+    bottom: 0;
+    border: solid rgba(87, 214, 83, 0.8) 1px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.learn-more{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.8);
+    border: dashed 1px rgba(255, 255, 255, 0.8);
+    left: 140px
+}
+
+.about-btn:hover{
+    opacity: .8;
+}
+
+.identity-card-container{
+    aspect-ratio: 5/7;
+    width: 300px;
+    background-color: rgba(255, 255, 255, .6);
 }
 
