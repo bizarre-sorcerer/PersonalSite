@@ -113,13 +113,13 @@
 }
 
 #whatsapp-icon-footer{
-    height: 34px;
-    width: 34px
+    height: 32px;
+    width: 32px
 }
     
-#whatsapp-icon:hover{
-    height: 32px;
-    width: 32px;
+#whatsapp-icon-footer:hover{
+    height: 31px;
+    width: 31px;
 }
 
 .copyright-container{

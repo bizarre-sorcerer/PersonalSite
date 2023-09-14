@@ -107,7 +107,7 @@ a{
 }
 
 #contact-me-button:hover{ 
-    opacity: .8;
+    opacity: .7;
 }
 
 /* Мини футер */
@@ -124,19 +124,23 @@ a{
 
 #whatsapp-icon{
     height: 32px;
-    width: 32px
+    width: 32px;
+    user-select: none;
+    transition: .2
 }
 
-#whatsapp-icon:hover{
-    height: 27px;
-    width: 27px;
-}
 
 .mini-footer-element{
     height: 29px;
     width: 29px;
     user-select: none;
     transition: .2
+}
+
+#whatsapp-icon:hover{
+    opacity: .8;
+    height: 31px;
+    width: 31px;
 }
 
 .mini-footer-element:hover{

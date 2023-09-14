@@ -1,10 +1,18 @@
 /* Контент главной страницы */
+#landing-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .main-content{
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 100vw;
-    height: 100vh;
+    justify-content: space-around;
+    gap: 100px;
+    width: 70vw;
+    height: 80%;
     overflow: hidden;
 }
 
@@ -15,8 +23,6 @@
     font-weight: 50;
     line-height: 20px; 
     letter-spacing: 1px;
-    margin-bottom: 100px;
-    margin-left: 50px;
 }
 
 /* Заголовок Welcome */
@@ -35,11 +41,21 @@
 }
 
 #first-p{
-    margin-left: 400px;
+    margin-left: 350px;
 }
 
 #third-p{
-    margin-left: 400px;
+    margin-left: 350px;
+}
+
+.image-container{
+    height: 70%;
+    width: 40%;
+    background-color: rgb(248, 248, 232);
+}
+
+.image-container span{
+    opacity: 0
 }
 
 .bottom-text{
@@ -48,8 +64,9 @@
     border-left: dashed white 1px;
     border-bottom: dashed white 1px;
     position: relative;
-    left: 150px;
-    bottom: 80px
+    right: 600px;
+    top: 50px
+    /* bottom: 60px */
 }
 
 .bottom-text span{
