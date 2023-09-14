@@ -12,6 +12,11 @@ body, div, img, h1, h3, button{
     padding: 0;
     color: var(--regular-text-color);
     font-family: 'Source Serif Pro';
+    z-index: 100;
+}
+
+body{
+    background-color: black;
 }
 
 /* Бэкграунд сайта везде */
@@ -154,4 +159,39 @@ a{
     opacity: .8;
     width: 28px;
     height: 28px;
+}
+
+
+/* Бг эффект */
+#blob{
+    background-color: white;
+    height: 500px;
+    aspect-ratio: 1;
+    position: absolute;
+    left: 50%;
+    bottom: 30%;
+    border-radius: 50%;
+    translate: -50% -50%;
+    z-index: 1;
+    background: linear-gradient(
+        to right,
+        aquamarine,
+        mediumpurple
+    );
+    animation: rotate 15s infinite;
+    filter: blur(200px)
+}
+
+@keyframes rotate{
+    from {
+        rotate: 0deg;
+    }
+
+    50% {
+        scale: 1 1.1;
+    }
+
+    to{
+        rotate: 360deg;
+    }
 }
