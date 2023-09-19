@@ -19,12 +19,12 @@ body{
     background-color: black;
 }
 
-p, span, a, img, svg, button{
-    opacity: .6;
+p, span, a, img, svg{
+    opacity: .8;
 }
 
 h1, h3, h4{
-    opacity: .6 ;
+    opacity: .8;
 }
 
 /* Бэкграунд сайта везде */
