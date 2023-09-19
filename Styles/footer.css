@@ -32,6 +32,16 @@
     letter-spacing: 0px;
 }
 
+#content-element-navigation{
+    justify-content: flex-start;
+}
+
+#navigation-outer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #footer-text{
     font-size: 16px;
     line-height: 20px;
@@ -87,8 +97,13 @@
     width: 19px;
     }
 
+#gmail-img{
+    width: 21px
+}
+
 #geolocation-img{
-    height: 25px
+    height: 21px;
+    width: 17px
 }
 
 .contacts-text{
