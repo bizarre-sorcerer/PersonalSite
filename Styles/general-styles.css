@@ -42,8 +42,8 @@ a{
     justify-content: space-around;
     width: 100vw;
     height: 58px;
-    background-color: var(--background-color-primary);
-    z-index: 10;
+    background-color: rgba(15, 5, 5, 0); 
+    z-index: 1000;
     color: var(--regular-text-color);
     user-select: none;
     position: fixed;
@@ -174,8 +174,8 @@ a{
     z-index: 100;
     background: linear-gradient(
         to right,
-        aquamarine,
-        mediumpurple
+        rgb(105, 245, 198),
+        rgb(140, 102, 218)
     );
     animation: rotate 15s infinite;
     filter: blur(180px);
