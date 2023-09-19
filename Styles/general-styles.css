@@ -129,7 +129,8 @@ a{
     height: 140px;
     position: fixed;
     left: 96vw;
-    top: 130px
+    top: 130px;
+    z-index: 1000;    
 }
 
 /* Иконка ватсапп */
