@@ -26,6 +26,6 @@ document.body.onpointermove = event => {
 // })
 
 document.addEventListener('scroll', function(event){
-    var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+    var scrollPosition = window.pageYOffset
     blob.style.transform = 'translateY(' + scrollPosition + 'px)';
 })
