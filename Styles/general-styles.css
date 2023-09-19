@@ -1,6 +1,6 @@
 /* Нужные переменные, цвета */
 :root{
-    --background-color-primary: rgb(0, 0, 0);
+    --background-color-primary: rgb(15, 5, 5);
     --regular-text-color: rgb(255, 255, 240); 
     --my-font: 'Source Serif Pro';
     --body-text-size: 18px;
@@ -42,8 +42,8 @@ a{
     justify-content: space-around;
     width: 100vw;
     height: 58px;
-    background-color: black;
-    z-index: 1000;
+    background-color: var(--background-color-primary);
+    z-index: 10;
     color: var(--regular-text-color);
     user-select: none;
     position: fixed;
@@ -171,14 +171,15 @@ a{
     left: 50%;
     border-radius: 50%;
     translate: -50% -50%;
-    z-index: 1;
+    z-index: 100;
     background: linear-gradient(
         to right,
         aquamarine,
         mediumpurple
     );
     animation: rotate 15s infinite;
-    filter: blur(200px)
+    filter: blur(180px);
+    /* opacity: .9 */
 }
 
 @keyframes rotate{
