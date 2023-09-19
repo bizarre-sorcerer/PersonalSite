@@ -91,13 +91,12 @@
       <div class="about-container"> 
         <!-- Весь текст находиться здесь -->
         <div class="about-text-container">  
-          <!-- Секция "Чем я занимаюсь" -->
           <div class="text-about" id="what-i-do-text">
-            <h3>Чем я занимаюсь</h3>
+            <h3 id="what-i-do-h3">Чем я занимаюсь</h3>
             
-            <p>Я занимаюсь разработкой Front-End частью WEB приложений и программирование на Python</p>
+            <p>Я занимаюсь разработкой Front-End частью WEB приложений и программированием на Python</p>
           </div>
-  
+
           <!-- Секция "Стек"  -->
           <div class="text-about" id="my-stack">
             <h3>Стек</h3>
@@ -148,7 +147,13 @@
         </div>
         
         <!-- Контейнер с моим фото, картой личности -->
-        <div class="identity-card-container"></div>
+        <div class="identity-card-container">
+          <div class="card-background-img"></div>
+
+          <div class="card-inner-content">
+          <!-- Секция "Чем я занимаюсь" -->
+          </div>
+        </div>
       </div>
     </div>
 
@@ -254,7 +259,7 @@
     </div>
 
     <div class="bg-animation">
-      <div id="blob"></div>
+      <!-- <div id="blob"></div> -->
     </div>
 
     <script src="../Scripts/blob-animation.js"></script>
