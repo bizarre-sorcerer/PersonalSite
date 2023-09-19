@@ -19,6 +19,14 @@ body{
     background-color: black;
 }
 
+p, span, a, img, svg, button{
+    opacity: .6;
+}
+
+h1, h3, h4{
+    opacity: .6 ;
+}
+
 /* Бэкграунд сайта везде */
 .wrapper{
     width: 100%;

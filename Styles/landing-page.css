@@ -32,12 +32,11 @@
     font-weight: 500;
     line-height: 90px;
     letter-spacing: -1px;
-    opacity: .95;    
 }
 
 .main-text-container p{
     width: 400px;
-    opacity: .8;
+    padding: 35px  0px;
 }
 
 #first-p{
@@ -49,6 +48,9 @@
 }
 
 .image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 85%;
     width: 40%;
     background-color: rgba(255, 255, 255, .6);
@@ -56,7 +58,8 @@
 }
 
 .image-container span{
-    opacity: 0
+    color: black;
+    font-size: 20px;
 }
 
 .bottom-text{
