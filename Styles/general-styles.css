@@ -19,8 +19,12 @@ body{
     background-color: black;
 }
 
-p, span, a, img, svg{
+p, a, img, svg{
     opacity: .8;
+}
+
+span{
+    opacity: .9;
 }
 
 h1, h3, h4{
@@ -180,7 +184,7 @@ a{
     left: 50%;
     border-radius: 50%;
     translate: -50% -50%;
-    z-index: 100;
+    z-index: 1;
     background: linear-gradient(
         to right,
         rgb(105, 245, 198),
