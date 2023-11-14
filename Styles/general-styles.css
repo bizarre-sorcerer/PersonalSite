@@ -1,6 +1,6 @@
 /* Нужные переменные, цвета */
 :root{
-    --background-color-primary: rgb(15, 5, 5);
+    --background-color-primary: rgb(5, 5, 5);
     --regular-text-color: rgb(255, 255, 240); 
     --my-font: 'Source Serif Pro';
     --body-text-size: 18px;
