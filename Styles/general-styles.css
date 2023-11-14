@@ -63,7 +63,7 @@ a{
 
 /* Мое имя в Хэдере */
 #My-name{
-    font-size: 22px;
+    font-size: 1.3rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -72,14 +72,14 @@ a{
 }
 
 #My-name:hover{
-    font-size: 21px;
+    font-size: 1.25rem;
     opacity: .8;
 }
 
 /* Текст Portfolio в Хэдере */
 #header-text-portfolio{
     font-family: var(--my-font);
-    font-size: 32px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -89,7 +89,7 @@ a{
 }
 
 #header-text-portfolio:hover{
-    font-size: 30px;
+    font-size: 1.95rem;
     opacity: .8;
 }
 
@@ -102,14 +102,14 @@ a{
 
 /* Отдельные элементы навигации */
 .menu-element{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400;
     letter-spacing: 1px;
     transition: .4s;
 }
 
 .menu-element:hover{
-    font-size: 19px;
+    font-size: 1.2rem;
     opacity: .8;
 }
 
@@ -145,39 +145,24 @@ a{
     z-index: 1000;    
 }
 
-/* Иконка ватсапп */
-#whatsapp-icon{
-    height: 32px;
-    width: 32px;
-    user-select: none;
-    transition: .2
-}
-
 /* Все остальные иконки */
 .mini-footer-element{
-    height: 29px;
-    width: 29px;
+    height: 1.95rem;
+    width: 1.95rem;
     user-select: none;
     transition: .2
-}
-
-/* Ховер эффекты на иконки в мини футере */
-#whatsapp-icon:hover{
-    opacity: .8;
-    height: 31px;
-    width: 31px;
 }
 
 .mini-footer-element:hover{
     opacity: .8;
-    width: 28px;
-    height: 28px;
+    width: 1.85rem;
+    height: 1.85rem;
 }
 
 
 /* Бг эффект */
-#blob{
-    background-color: white;
+/* #blob{
+background-color: white;
     height: 400px;
     aspect-ratio: 1;
     position: absolute;
@@ -192,7 +177,6 @@ a{
     );
     animation: rotate 15s infinite;
     filter: blur(180px);
-    /* opacity: .9 */
 }
 
 @keyframes rotate{
@@ -207,4 +191,4 @@ a{
     to{
         rotate: 360deg;
     }
-}
+} */
