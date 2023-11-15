@@ -1,7 +1,5 @@
 /* Контент главной страницы */
 #landing-page{
-    padding-top: 500px;
-    padding-bottom: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
