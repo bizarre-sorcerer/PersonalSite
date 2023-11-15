@@ -5,7 +5,15 @@
     align-items: center;
     gap: 50px;
     height: 70vh;
-    padding-bottom: 500px
+    margin-bottom: 500px
+}
+
+.about-header-background{
+    width: 100vw;
+    height: 500px;
+    padding-left: 400px;
+    /* background-image: url("../Design/Imgs/my-photo4.jpeg"); */
+    background-repeat: no-repeat;
 }
 
 .about-container{

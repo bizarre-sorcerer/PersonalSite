@@ -54,11 +54,14 @@ a{
     justify-content: space-around;
     width: 100vw;
     height: 58px;
-    background-color: rgba(15, 5, 5, 0); 
-    z-index: 500;
+    background-color: rgb(0, 0, 0); 
+    z-index: 1000;
     color: var(--regular-text-color);
     user-select: none;
-    position: fixed;
+}
+
+#my-img{
+    height: 500px;
 }
 
 /* Мое имя в Хэдере */
@@ -72,7 +75,7 @@ a{
 }
 
 #My-name:hover{
-    font-size: 1.25rem;
+    font-size: 1.29rem;
     opacity: .8;
 }
 
@@ -89,7 +92,7 @@ a{
 }
 
 #header-text-portfolio:hover{
-    font-size: 1.95rem;
+    font-size: 1.97rem;
     opacity: .8;
 }
 
@@ -109,7 +112,7 @@ a{
 }
 
 .menu-element:hover{
-    font-size: 1.2rem;
+    font-size: 1.22rem;
     opacity: .8;
 }
 
