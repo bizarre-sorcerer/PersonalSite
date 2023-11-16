@@ -9,10 +9,11 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: 100px;
+    gap: 140px;
     width: 75vw;
     height: 80%;
     overflow: hidden;
+    margin-top: auto;
 }
 
 /* Контейтер где находяться весь тексты */
@@ -51,14 +52,12 @@
     justify-content: center;
     align-items: center;
     height: 90%;
-    width: auto;    
+    width: 600px;
+    overflow-y: hidden;    
 }
 
 #web-dev-img{
-    height: 100%;
-    /* mix-blend-mode: multiply; */
-    /* background-color: rgb(218, 218, 218); */
-
+    width: 100%;
 }
 
 .image-container span{
@@ -72,7 +71,7 @@
     border-bottom: dashed white 1px;
     position: relative;
     right: 600px;
-    top: 80px;
+    top: 50px;
     margin-bottom: 100px;
 }
 
