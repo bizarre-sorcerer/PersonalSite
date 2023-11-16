@@ -1,5 +1,37 @@
-@media only screen and (min-width: 768px) {
+/* Планшеты */
+@media only screen and (max-width: 768px) {
+    /* Header */
     #My-name{
-        font-size: 1rem;
+        font-size: 1.1rem;
+    }
+
+    #My-name:hover{
+        font-size: 1.08rem;
+    }
+
+    #header-text-portfolio{
+        font-size: 1.6rem
+    }      
+
+    #header-text-portfolio:hover{
+        font-size: 1.55rem
+    }      
+
+    .menu{
+        display: none;
+        flex-direction: column
+    }
+
+    .menu-img{
+        display: flex;
+        align-items: center;
+    }
+
+    .menu-img:hover{
+        opacity: .8;
+    }
+
+    .menu-adapted{
+        display: block;
     }
 }
