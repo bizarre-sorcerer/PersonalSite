@@ -19,6 +19,13 @@ body{
     background-color: black;
 }
 
+/* Невозможен горизонтальный скролл, ниче не будет выходить за пределы экрана */
+*{
+    max-width: 100vw;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
 p, a, img, svg{
     opacity: .8;
 }
