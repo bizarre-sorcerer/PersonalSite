@@ -1,3 +1,8 @@
+#adaptive-workInProgress{
+    display: none;
+    text-align: center;
+}
+
 /* Нужные переменные, цвета */
 :root{
     --background-color-primary: rgb(5, 5, 5);
