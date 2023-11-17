@@ -81,6 +81,8 @@ a{
 
 /* Мое имя в Хэдере */
 #My-name{
+    display: flex;
+    gap: 10px;
     font-size: 1.3rem;
     font-style: normal;
     font-weight: 600;

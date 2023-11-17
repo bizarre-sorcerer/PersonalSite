@@ -8,6 +8,7 @@
     /* Header */
     #My-name{
         font-size: 1.1rem;
+        gap: 5px;
     }
 
     #My-name:hover{
@@ -39,4 +40,49 @@
     .menu-adapted{
         display: block;
     }
+}
+
+
+@media only screen and (max-width: 600px){
+    /* Header */
+    #My-name{
+        flex-direction: column;
+    }
+    
+    #My-name h4{
+        font-size: .8rem;
+        margin: 0;
+        line-height: .7rem;
+    }
+
+
+    #My-name:hover{
+        font-size: .78rem;
+    }
+
+    #header-text-portfolio{
+        font-size: 1.3rem
+    }      
+
+    #header-text-portfolio:hover{
+        font-size: 1.25rem
+    }      
+
+    .menu{
+        display: none;
+        flex-direction: column
+    }
+
+    .menu-img{
+        display: flex;
+        align-items: center;
+    }
+
+    .menu-img:hover{
+        opacity: .8;
+    }
+
+    .menu-adapted{
+        display: block;
+    }    
 }
