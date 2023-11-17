@@ -55,7 +55,6 @@
         line-height: .7rem;
     }
 
-
     #My-name:hover{
         font-size: .78rem;
     }
@@ -72,14 +71,23 @@
         display: none;
         flex-direction: column
     }
+    
+    .menu-dropdown{
+        display: block  ;
+    }
 
     .menu-img{
         display: flex;
         align-items: center;
     }
+    
+    .fas:focus + #menu-adapted-elements{
+        display: block;
+    }
 
-    .menu-img:hover{
+    .fas:focus{
         opacity: .8;
+        color: red
     }
 
     .menu-adapted{
