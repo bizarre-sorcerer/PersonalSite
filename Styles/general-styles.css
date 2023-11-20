@@ -148,6 +148,7 @@ a{
 }
 
 
+/* Этот кусок кода я перенесу в брейкпоинты потом */
 .menu-img {
     display: block;
     position: relative;
@@ -186,9 +187,13 @@ a{
     /* top: 250px */
 }
 
-#check{
-    display: none;
+.menu-img-container:focus .menu-img,
+.menu-img-container:focus .menu-img::before,
+.menu-img-container:focus .menu-img::after {
+  background: red; /* Change color to red on click */
 }
+
+
 
 /* Мини футер */
 .mini-footer{
