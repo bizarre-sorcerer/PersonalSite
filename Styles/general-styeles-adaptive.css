@@ -22,24 +22,29 @@
     #header-text-portfolio:hover{
         font-size: 1.55rem
     }      
-
-    .menu{
+    #menu-img {
+        display: inline-block;
+        position: relative;
+        color: white;
+        font-size: 2rem;
+    }
+    
+    #dropdown-content{
         display: none;
-        flex-direction: column
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        z-index: 1;
+        color: black
+            
     }
 
-    .menu-img{
-        display: flex;
-        align-items: center;
-    }
-
-    .menu-img:hover{
-        opacity: .8;
-    }
-
-    .menu-adapted{
+    .menu-dropdown:hover #dropdown-content{
         display: block;
     }
+
 }
 
 
@@ -67,30 +72,26 @@
         font-size: 1.25rem
     }      
 
-    .menu{
+    #menu-img {
+        display: inline-block;
+        position: relative;
+        color: white;
+        font-size: 2rem;
+    }
+    
+    #dropdown-content{
         display: none;
-        flex-direction: column
-    }
-    
-    .menu-dropdown{
-        display: block  ;
+        position: absolute;
+        background-color: #111111;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        z-index: 1;
+        color: black;
+        right: 1px;
     }
 
-    .menu-img{
-        display: flex;
-        align-items: center;
-    }
-    
-    .fas:focus + #menu-adapted-elements{
+    .menu-dropdown:focus #dropdown-content{
         display: block;
     }
-
-    .fas:focus{
-        opacity: .8;
-        color: red
-    }
-
-    .menu-adapted{
-        display: block;
-    }    
 }

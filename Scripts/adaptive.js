@@ -15,12 +15,8 @@ window.addEventListener("resize", function() {
 
     // Change the text for screens 600px or less
     if (width <= 600) {
-        console.log("a")
-        console.log(width)
         textElement.textContent = "S. Aidar"
     } else {
-        console.log(width)
-        console.log("b")
         textElement.textContent = "Sharipov Aidar" // Change the text back for screens larger than 600px
     }
 });
