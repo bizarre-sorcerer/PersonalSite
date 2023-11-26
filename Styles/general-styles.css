@@ -150,26 +150,8 @@ a{
     opacity: .7;
 }
 
-
-.menu-adapted{
+#menu-img{
     display: none;
-}
-
-#check{
-    display: none;
-}
-
-.menu-img{
-    display: flex;
-    align-items: center;
-    font-size: 2rem;
-    line-height: 80px;
-    cursor: pointer;
-    color: white
-}
-
-.menu-img i{
-
 }
 
 /* Мини футер */
@@ -200,35 +182,3 @@ a{
 }
 
 
-/* Бг эффект */
-/* #blob{
-background-color: white;
-    height: 400px;
-    aspect-ratio: 1;
-    position: absolute;
-    left: 50%;
-    border-radius: 50%;
-    translate: -50% -50%;
-    z-index: 1;
-    background: linear-gradient(
-        to right,
-        rgb(105, 245, 198),
-        rgb(140, 102, 218)
-    );
-    animation: rotate 15s infinite;
-    filter: blur(180px);
-}
-
-@keyframes rotate{
-    from {
-        rotate: 0deg;
-    }
-
-    50% {
-        scale: 1 1.1;
-    }
-
-    to{
-        rotate: 360deg;
-    }
-} */
