@@ -151,3 +151,7 @@ a{
 .menu-dropdown:focus #dropdown-content{
     display: block;
 }
+
+#menu-img:focus #dropdown-content{
+    display: block;
+}
