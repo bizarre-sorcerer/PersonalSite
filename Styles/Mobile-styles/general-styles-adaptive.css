@@ -7,7 +7,7 @@
 }
 
 /* Убераю значения браузеров по дефолту */
-body, div, img, h1, h3, button{
+body, div, img, h1, h3, button, p{
     margin: 0;
     padding: 0;
     color: var(--regular-text-color);
@@ -88,7 +88,7 @@ a{
 /* Текст Portfolio в Хэдере */
 #header-text-portfolio{
     font-family: var(--my-font);
-    font-size: 2rem;
+    font-size: 1.3rem;
     font-style: normal;
     font-weight: 800;
     line-height: normal;

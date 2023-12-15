@@ -189,6 +189,28 @@
       </div>
     </div>
     
-    <script src="../Scripts/adaptive.js"></script>
+    <script src="../Scripts/adaptive.js">
+      var counter = 0
+
+      function plus(a, b){
+        counter++
+        console.log(a+b)
+
+        return a+b
+      }
+
+      plus(1, 1)
+      console.log("Функцию plus() вызывали ${counter} раз")
+      
+      plus(122, 1132)
+      console.log("Функцию plus() вызывали ${counter} раз")
+      
+      plus(12, 11)
+      console.log("Функцию plus() вызывали ${counter} раз")
+  
+      plus(12, 12)
+      console.log("Функцию plus() вызывали ${counter} раз")
+
+  </script>
   </body>
 </html>

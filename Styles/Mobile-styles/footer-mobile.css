@@ -1,0 +1,40 @@
+#footer{
+    background-color: var(--background-color-primary);
+}
+
+.all-content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+    opacity: .6;
+}
+
+.content-element-container{
+    width: 85vw;
+    text-align: center;
+}
+
+.content-element-container img, svg{
+    width: 32px;
+    height: 32px;
+}
+
+#separating_dot{
+    background-color: white;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    margin: 16px auto;
+}
+
+#my-name{
+    color: white;
+    font-size: 2.3rem;
+    opacity: 1;
+}
+
+#footer-text{ 
+    line-height: 25px;
+}
