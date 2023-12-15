@@ -2,7 +2,7 @@
 :root{
     --background-color-primary: rgb(5, 5, 5);
     --regular-text-color: rgb(255, 255, 240); 
-    --my-font: 'Source Serif Pro';
+    --my-font: 'Montserrat', sans-serif;
     --body-text-size: 18px;
 }
 
@@ -11,8 +11,9 @@ body, div, img, h1, h3, button, p{
     margin: 0;
     padding: 0;
     color: var(--regular-text-color);
-    font-family: 'Source Serif Pro';
+    font-family: var(--my-font);
     z-index: 100;
+    overflow-y: hidden;
 }
 
 body{
