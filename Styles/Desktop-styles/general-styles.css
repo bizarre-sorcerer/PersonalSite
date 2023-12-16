@@ -83,33 +83,33 @@ a{
 
 /* Мое имя в Хэдере */
 #My-name{
-    font-size: 1.3rem;
-    font-style: normal;
+    font-size: 1.2rem;
     font-weight: 600;
     line-height: normal;
     letter-spacing: -0.2px;
+    opacity: .9;
     text-transform: capitalize;
 }
 
 #My-name:hover{
-    font-size: 1.29rem;
+    font-size: 1.19rem;
     opacity: .8;
 }
 
 /* Текст Portfolio в Хэдере */
 #header-text-portfolio{
     font-family: var(--my-font);
-    font-size: 2rem;
+    font-size: 1.9rem;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    letter-spacing: 1px;
+    letter-spacing: -.5px;
     text-transform: uppercase;
     transition: .4s;
 }
 
 #header-text-portfolio:hover{
-    font-size: 1.97rem;
+    font-size: 1.87rem;
     opacity: .8;
 }
 
@@ -122,15 +122,14 @@ a{
 
 /* Отдельные элементы навигации */
 .menu-element{
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     font-weight: 400;
     letter-spacing: 1px;
-    transition: .4s;
+    transition: .2s;
 }
 
-
 .menu-element:hover{
-    font-size: 1.22rem;
+    font-size: 1.08rem;
     opacity: .8;
 }
 
@@ -142,14 +141,9 @@ a{
     border: solid White 1px;
     width: 130px;
     height: 38px;
-    font-size: 20px;
     font-weight: 600;
     cursor: pointer;
     transition: .4s;    
-}
-
-#contact-me-button:hover{ 
-    opacity: .7;
 }
 
 #menu-img{
@@ -178,7 +172,7 @@ a{
 }
 
 .mini-footer-element:hover{
-    opacity: .8;
+    opacity: .6;
     width: 1.85rem;
     height: 1.85rem;
 }
