@@ -1,0 +1,28 @@
+/* Мини футер */
+.mini-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 40px;
+    height: 140px;
+    position: fixed;
+    left: 96vw;
+    top: 130px;
+    z-index: 1000;    
+}
+
+/* Все остальные иконки */
+.mini-footer-element{
+    height: 1.95rem;
+    width: 1.95rem;
+    user-select: none;
+    transition: .2
+}
+
+.mini-footer-element:hover{
+    opacity: .6;
+    width: 1.85rem;
+    height: 1.85rem;
+}
+
+

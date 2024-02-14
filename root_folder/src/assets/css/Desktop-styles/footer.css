@@ -1,0 +1,142 @@
+#footer{
+    background-color: black;
+}
+
+.all-content-container{
+    display: flex;
+    justify-content: center;
+}
+
+.content-element-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+    width: 22%
+}
+
+.inner-content-container{
+    width: 80%;
+    height: 80%;
+}
+
+.footer-heading{
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 26.221px; 
+    letter-spacing: -1px;
+    margin-bottom: 30px;
+}
+
+#my-name{
+    letter-spacing: 0px;
+}
+
+#content-element-navigation{
+    justify-content: center;
+}
+
+#navigation-outer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#footer-text{
+    font-size: 16px;
+    line-height: 25px;}
+
+#footer-navigation-container{
+    margin-left: 100px;
+}
+    
+.footer-navigation{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-nav-link{
+    font-size: 18px;
+    transition: .5s;
+    z-index: 1000;
+}
+
+.footer-nav-link:hover{
+    font-size: 15px;
+}
+
+.footer-services-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px
+}
+
+.footer-service-element{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 174.809% */
+    letter-spacing: 0.3px;
+}
+
+.service-link{
+    color: rgba(20, 200, 255, 1);
+    transition: .2s;
+}
+
+.service-link:hover{
+    opacity: .7
+}
+
+.contacts-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contacts-container img{
+    width: 19px;
+    }
+
+#gmail-img{
+    width: 21px
+}
+
+#geolocation-img{
+    height: 21px;
+    width: 17px
+}
+
+.contacts-text{
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+    margin-left: 5px;
+}
+
+.image-link-contacts *{
+    height: 30px;
+    width: 30px;
+    padding: 5px 15px 0px 0px
+}
+
+#whatsapp-icon-footer{
+    height: 32px;
+    width: 32px
+}
+    
+#whatsapp-icon-footer:hover{
+    height: 31px;
+    width: 31px;
+}
+
+.copyright-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 42px;
+    opacity: .8;
+}
