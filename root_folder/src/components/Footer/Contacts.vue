@@ -42,9 +42,11 @@
 </template>
 
 <script>
-  import "../../assets/css/Desktop-styles/footer.css"
+import "../../assets/css/Desktop-styles/Footer/footer.css"
+import "../../assets/css/Desktop-styles/Footer/contacts.css"
+import "../../assets/css/Desktop-styles/Footer/copyright.css"
 
-	export default {
-		name: "Navigation"
-	}
+export default {
+	name: "Navigation"
+}
 </script>

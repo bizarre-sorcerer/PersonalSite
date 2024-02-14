@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import "../../assets/css/Desktop-styles/footer.css"
+import "../../assets/css/Desktop-styles/Footer/footer.css"
 import About from "./About.vue"
 import Navigation from "./Navigation.vue"
 import Services from "./Services.vue"
@@ -39,4 +39,5 @@ export default{
     About, Navigation, Services, Contacts
   }
 }
+
 </script>

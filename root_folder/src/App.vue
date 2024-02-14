@@ -21,4 +21,12 @@ export default {
     Header, Mini_footer, Landing, Footer
   }
 }
+
+// var matrix = [[1, 2, 3], [39.5, "Привет", 9], [true, 0.1, 31]]
+
+// console.log(matrix[1])
+
+// matrix[1][0] = 39.4
+
+// console.log(matrix[1])
 </script>

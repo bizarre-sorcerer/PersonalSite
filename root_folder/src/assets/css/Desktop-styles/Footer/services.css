@@ -1,0 +1,22 @@
+.footer-services-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px
+}
+
+.footer-service-element{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 174.809% */
+    letter-spacing: 0.3px;
+}
+
+.service-link{
+    color: rgba(20, 200, 255, 1);
+    transition: .2s;
+}
+
+.service-link:hover{
+    opacity: .7
+}

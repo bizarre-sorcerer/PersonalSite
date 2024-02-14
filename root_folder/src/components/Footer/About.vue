@@ -12,9 +12,10 @@
 </template>
 
 <script>
-  import "../../assets/css/Desktop-styles/footer.css"
+import "../../assets/css/Desktop-styles/Footer/footer.css"
+import "../../assets/css/Desktop-styles/Footer/about.css"
 
-	export default {
-		name: "About"
-	}
+export default {
+	name: "About"
+}
 </script>

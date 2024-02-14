@@ -1,0 +1,38 @@
+#footer{
+    background-color: black;
+}
+
+.all-content-container{
+    display: flex;
+    justify-content: center;
+}
+
+.content-element-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+    width: 22%
+}
+
+.inner-content-container{
+    width: 80%;
+    height: 80%;
+}
+
+.footer-heading{
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 26.221px; 
+    letter-spacing: -1px;
+    margin-bottom: 30px;
+}
+
+#content-element-navigation{
+    justify-content: center;
+}
+
+#footer-navigation-container{
+    margin-left: 100px;
+}
+    

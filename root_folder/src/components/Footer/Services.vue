@@ -16,9 +16,10 @@
 </template>
 
 <script>
-  import "../../assets/css/Desktop-styles/footer.css"
+import "../../assets/css/Desktop-styles/Footer/footer.css"
+import "../../assets/css/Desktop-styles/Footer/services.css"
 
-	export default {
-		name: "Navigation"
-	}
+export default {
+	name: "Navigation"
+}
 </script>

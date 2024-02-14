@@ -17,7 +17,8 @@
 </template>
 
 <script>
-  import "../../assets/css/Desktop-styles/footer.css"
+  import "../../assets/css/Desktop-styles/Footer/footer.css"
+  import "../../assets/css/Desktop-styles/Footer/navigation.css"
 
 	export default {
 		name: "Navigation"
